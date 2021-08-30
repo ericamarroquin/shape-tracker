@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Shape Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Triangle Tracker</h1>
+    <h2>What do, triangle?! Find out here!</h2>
+    <form id="triangleType">
+      <div class="form-group">
+        <label for="side1">Side 1 length, in inches</label>
+        <input id="side1" class="form-control" type="text">
+      </div>  
+      <div class="form-group">
+        <label for="side2">Side 2 length, in inches</label>
+        <input id="side2" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="side3">Side 3 length, in inches</label>
+        <input id="side3" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit your triangle!</button>
+    </form>
+
+    <div id="equilateral">
+      <h3>Equilateral</h3>
+      <p>Congrats, your triangle is an equilateral triangle - meaning all sides are equal.</p>
+    </div>
+
+    <div id="isosceles">
+      <h3>Isosceles</h3>
+      <p>Congrats, your triangle is an isosceles triangle - meaning two sides are equal.</p>
+    </div>
+
+    <div id="scalene">
+      <h3>Scalene</h3>
+      <p>Congrats, your triangle is a scalene triangle - meaning no sides are equal.</p>
+    </div>
+
+    <div id="noTriangle">
+      <h3>NOT a triangle :(</h3>
+      <p>Sad, your triangle is not actually a triangle!</p>
+    </div>
+  </div>
+  <script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
